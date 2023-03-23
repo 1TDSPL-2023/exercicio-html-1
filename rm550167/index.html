@@ -5,49 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solução Ex-1</title>
-    <style>
-        /*
-            Bloco de comentários CSS
-        */
-        /*
-            Em css é muito comum utilizarmos objetos para a estilização o qual chamamos de SELETORES.
-            Qualquer elemento pode ser um seletor.
-            Exemplo de seletores:p, div, nav, ul, li, a, etc;
-            Existem os mais especificos que podem agrupar ou especificar ainda mais os seletores.
-            São eles: 
-            class = Que reune diversos tipos de elementos de tipos diferentes.
-            id = Que determina apenas um único elemento.
-        */
+   <!--
+        <style>
+                /*
+                    Bloco de comentários CSS
+                */
+                /*
+                    Em css é muito comum utilizarmos objetos para a estilização o qual chamamos de SELETORES.
+                    Qualquer elemento pode ser um seletor.
+                    Exemplo de seletores:p, div, nav, ul, li, a, etc;
+                    Existem os mais especificos que podem agrupar ou especificar ainda mais os seletores.
+                    São eles: 
+                    class = Que reune diversos tipos de elementos de tipos diferentes.
+                    id = Que determina apenas um único elemento.
+                */
 
-        /*
-            Utilizando o seletor class
-            Ex: .nomeDaClasse
-            .abacate{
-                ...
-            }
-        */
-        .container{
-            margin-left: 20%;
-            margin-right: 20%;
-        }
-    </style>
+                /*
+                    Utilizando o seletor class
+                    Ex: .nomeDaClasse
+                    .abacate{
+                        ...
+                    }
+                */
+                .container{
+                    margin-left: 20%;
+                    margin-right: 20%;
+                }
+            </style>
+   --> 
+   
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="menu">
-            <ul>
-                <li><a href="./mobile.html">Mobile</a></li>
-                <li><a href="./games.html">Games</a></li>
-                <li><a href="interna/exemplo.html">Exemplo</a></li>
-                
-            </ul>
-        </nav>
+    <div id="container">
+        
 
         <header class="cabecalho">
-            <h1>Home</h1>
+            <h1>MEU SITE</h1>
+            <nav>
+                <ul>
+                    <li><a href="./games.html">Games</a></li>
+                    <li><a href="./mobile.html">Mobile</a></li>
+                    <li><a href="./tech.html">Exemplo</a></li>   
+                </ul>
+            </nav>
         </header>
 
-       <section>
+       <section class="conteudo">
             <h2>Mobile</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem quo, temporibus facere
                 exercitationem ipsa doloribus asperiores ratione totam laborum aut, hic molestias voluptatibus alias
