@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho > h1 {
+    float: left;
+    width: 345px;
+    height: 217px;
+    left: 0px;
+    top: 0px;
+    background: #141414;
+}
+
+.cabecalho > #games {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 79px 23px;
+    gap: 10px;
+    width: 223px;
+    height: 216px;
+    left: 729px;
+    top: 0px;
+    background: #141414;
+}
+
+.conteudo{
+    clear: left;
+}
