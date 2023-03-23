@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+}
+/* MEU SITE */
+
+.home> h1{
+
+    width: 350px;
+    height: 184px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 85px;
+
+    
+   color: #000000;
+    
+border: 1px solid #000000;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
