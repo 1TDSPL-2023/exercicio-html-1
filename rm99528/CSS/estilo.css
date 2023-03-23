@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+codigo importado do figma
+/*
+
+/* h1*/
+
+.cabecalho > h1{
+    float: left;
+    width: 345px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    background: #d9d9d9;
+}
+
+.cabecalho>nav{
+    float: right;
+}
+
+.conteudo{
+    clear: left;
+}
