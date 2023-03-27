@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+/* h1 */ 
+.cabecalho > h1{ 
+    position: absolute;
+    width: 345px;
+    height: 200px;
+    left: 0px;
+    top: 0px; 
+    background-color: blueviolet;
+}
+
+/* nav */ 
+.cabecalho > nav{ 
+    float: right;
+} 
+
+.conteudo {
+    clear: right;
+     
+}
