@@ -1,9 +1,9 @@
-/* 
-reset CSS
+
+/*reset CSS
 http://meyerweb.com.eric/tools/css/reset/
 v2.0 / 20110125
-licence: nine (public domain)
-*/
+licence: nine (public domain)*/
+
 
 * {
     margin: 0;
@@ -12,14 +12,15 @@ licence: nine (public domain)
 
 }
 
-/* h1 */
+
 .cabecalho >h1{
 float:left;
 width: 345px;
 height: 200px;
 left: 0px;
 top: 0px;
-background: #321a5c;}
+background: #a28ec4;}
+*
 
 .cabecalho >nav{
     float: right;
@@ -32,9 +33,22 @@ background: #321a5c;}
     height: 216px;
     left: 729px;
     top: 0px;
-    background: #141414d3;
-}
+    background: #b28cccd3;
+    }
 
-.conteudo {
-    clear: left;
-}
+    .menu ul{
+        list-style: none;
+    }
+    .menu ul li{
+        display:inline;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color:aqua;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+    }
+    
+
+    .conteudo {
+        clear: left;
+    }   
