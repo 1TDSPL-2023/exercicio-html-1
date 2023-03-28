@@ -2,29 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.link {
+    text-decoration: none;
 }
 
 .cabecalho > h1 {
     float: left;
     width: 345px;
     height: 217px;
-    left: 0px;
-    top: 0px;
     background: #141414;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
 }
 
-.cabecalho > #games {
-    float: right;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 79px 23px;
-    gap: 10px;
-    width: 223px;
-    height: 216px;
-    left: 729px;
-    top: 0px;
-    background: #141414;
+.cabecalho > nav {
+    float:right;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #141414;
 }
 
 .conteudo{
