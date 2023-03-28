@@ -3,17 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
 .cabecalho > h1 {
   float: left;
   width: 345px;
   height: 200px;
   left: 0;
   top: 0;
-  background-color: #d9d9d9;
+  background-color: #78D7FF;
+  color: #ECE4E4;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 .cabecalho > nav {
   float: right;
 }
 .conteudo {
   clear: left;
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu ul li{
+  display: inline;
+}
+
+.menu ul li a{
+  color: #ECE4E4;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
