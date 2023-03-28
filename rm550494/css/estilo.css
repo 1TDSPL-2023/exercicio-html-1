@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+.menu{ 
+    background-color: rgb(236, 207, 169);
+}
+a.menu{ 
+    text-decoration: none;
+}
+
+/* h1 */ 
+.cabecalho > h1{ 
+    float: left;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 0px;
+    top: 0px; 
+    background-color: rgb(199, 81, 134);
+}
+
+/* nav */  
+.cabecalho > nav { 
+    float: right;
+    padding: 79px 23px;
+    width: 100px;
+    height: 100px; 
+    background-color: rgb(207, 79, 111);
+}
+
+/* Importante pra manter a parte em ordem */ 
+.conteudo {
+    clear: right;
+     
+}
+
+
+
+
