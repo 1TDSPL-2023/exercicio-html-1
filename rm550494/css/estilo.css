@@ -4,22 +4,16 @@
     box-sizing: border-box;
 }
 
-.menu{ 
-    background-color: rgb(236, 207, 169);
-}
-a.menu{ 
-    text-decoration: none;
-}
-
 /* h1 */ 
 .cabecalho > h1{ 
-    float: left;
     position: absolute;
+    float: left;
     width: 200px;
     height: 100px;
     left: 0px;
     top: 0px; 
     background-color: rgb(199, 81, 134);
+    font-family: 'Lucida Sans', Arial, sans-serif;
 }
 
 /* nav */  
@@ -28,7 +22,20 @@ a.menu{
     padding: 79px 23px;
     width: 100px;
     height: 100px; 
-    background-color: rgb(207, 79, 111);
+}
+
+.menu > ul {  
+    list-style: none; 
+
+} /*Usado para decidir se é um bloco ou uma linha */ 
+.menu > ul li { 
+    display: inline; 
+}
+
+.menu > ul li a { 
+    text-decoration: none;
+    color: rgb(198, 54, 155);
+    font-family: 'Trebuchet MS', Arial, sans-serif; /*Sans serif significa é uma fonte redonda */ 
 }
 
 /* Importante pra manter a parte em ordem */ 
