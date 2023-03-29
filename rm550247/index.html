@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
+    <!--
     <style> /* Só pode ser criado no <head> */
         /*
             Bloco de comentários CSS
@@ -34,26 +35,48 @@
             margin-left: 20%;
             margin-right: 20%;
         }
-    </style>
+    </style> -->
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <!-- <style>
+        h1{
+            color : red;
+            font-family: 'Courier New';
+            font-size: 40px;
+        }
+        #container{
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: beige;
+        }
+        .menu{
+            background-color: aquamarine;
+        }
+        a.menu{
+            text-decoration: none;
+        }
+    </style> -->
 
 </head>
 
 <body>
     <div class="container">
-        <nav class="menu">
-            <ul>
-                <li><a href="./mobile.html">Mobile</a></li>
-                <li><a href="./games.html">Games</a></li>
-                <li><a href="./interna/exemplo.html">Exemplo</a></li>
-            </ul>
-        </nav>
+
 
         <header class="cabecalho">
-            <h1>Home</h1>
+            <h1>MEU SITE</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="./mobile.html">Mobile</a></li>
+                    <li><a href="./games.html">Games</a></li>
+                    <li><a href=".tech.html">Tech</a></li>
+                </ul>
+            </nav>
         </header>
         
         <!-- section>h2{Mobile}*1p*1h2{Games}*1p*1 -->
-        <section>
+        <section class="conteudo">
             <h2>Mobile</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in impedit officiis, sequi, alias
                 praesentium facere tenetur quisquam soluta maiores quo laudantium, atque odio. Consectetur illum qui
