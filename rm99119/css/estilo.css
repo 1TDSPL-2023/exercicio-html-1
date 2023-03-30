@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -30,12 +33,27 @@ font-size: 61px;
 
 .menu ul li{
     display: inline;
+    padding: 0px 20px;
 }
 
 .menu ul li a{
-    text-decoration:none;
-    color: rgb(69, 9, 129);
-    font-family:"Trebuchet MS", Arial, sans-serif;
+    text-decoration: none;
+
+    font-family: 'Inter',sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 73px;
+        font-size: 40px;
+
+    background-color: #d9d9d9;
+    text-align: center;
+    display: inline-block;
+    padding: 60px 50px;
+    height: 200px;
+    width: 266px;
+    border-radius: 0px;
 }
 
 .conteudo{
