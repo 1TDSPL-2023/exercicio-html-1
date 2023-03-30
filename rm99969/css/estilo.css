@@ -10,6 +10,7 @@ a.link {
 }
 
 .cabecalho > h1 {
+    text-align: center;
     float: left;
     width: 345px;
     height: 217px;
