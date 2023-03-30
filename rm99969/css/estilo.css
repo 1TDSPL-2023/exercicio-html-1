@@ -17,8 +17,10 @@ a.link {
     color: white;
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 63px;
     line-height: 77px;
+    padding: 70px 21px
+    
 }
 
 .cabecalho > nav {
@@ -31,12 +33,21 @@ a.link {
 
 .menu ul li{
     display: inline;
+    padding: 0px 10px;
+    
 }
 
 .menu ul li a {
     text-decoration: none;
-    color: crimson;
+    text-align: center;
+    display: inline-block;
+    color: white;
     background-color: #141414;
+    width: 223px;
+    height: 217px;
+    border-radius: 0px;
+    padding: 80px 21px;
+    font-size: 50px;
 }
 
 .conteudo{
