@@ -1,2 +1,10 @@
-## Resolução do exercício de HTML-5
--- https://prod.liveshare.vsengsaas.visualstudio.com/join?84519A96820B0493DF30EA10D28E20B1D949
+## DONE
+- Patterns WEB
+- Introduction on HTML
+- Introduction on CSS3
+
+## TODO --> IN PROGRESS
+- Responsive CSS3 + HTML
+
+## NEXT
+- Introduction on Javascript
