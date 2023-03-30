@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +15,9 @@ a {
   height: 200px;
   background-color: #78d7ff;
   color: #ece4e4;
-  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   padding: 60px 20px;
-  font-size: 65px;
+  font-size: 60px;
 }
 .cabecalho > nav {
   float: right;
@@ -31,9 +32,18 @@ a {
 
 .menu ul li {
   display: inline;
+  padding: 0px 10px;
 }
 
 .menu ul li a {
   color: #ece4e4;
-  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  border-radius: 0px;
+  padding: 70px 35px;
+  background-color: #78d7ff;
+  font-size: 50px;
 }
