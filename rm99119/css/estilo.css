@@ -13,8 +13,10 @@ width: 345px;
 height: 200px;
 left: 0px;
 top: 0px;
-
 background: #A5A1A1;
+padding: 65px 20px;
+font-size: 61px;
+
 }
 
 .cabecalho > nav{
