@@ -1,35 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile</title>
+    <title>Solução Ex-1</title>
+    <!-- 
+    <style>
+        /*
+            Bloco de comentários CSS
+        */
+        /*
+            Em css é muito comum utilizarmos elementos para a estilização o qual chamamos de SELETORES.
+            Qualquer elemento pode ser um seletor.
+            Ex de seletores: p, div, nav, ul, li, a, etc;
+            Existem os mais especificos que podem agrupar ou especificar ainda mais os seletores são eles.
+            class = Que reune diversos tipos de elementos de tipos diferentes.
+            id = Que determina apenas um único elemento.
+        */
+
+        /*
+            Utilizando o seletor class
+            Ex: .nomeDaClasse
+            .abacate{
+                ...
+            }
+        */
+
+        .container {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <!-- <style>
+        h1{
+            color : red;
+            font-family: 'Courier New';
+            font-size: 40px;
+        }
+
+        #container{
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: beige;
+        }
+
+        .menu{
+            background-color: aquamarine;
+        }
+
+        a.menu{
+            text-decoration: none;
+        }
+    </style> -->
+
 </head>
+
 <body>
-    <div class="container">
-        <nav class="menu">
-            <ul>
-                <li><a href="./index.html">Game</a>Home</li>
-                <li><a href="./index.html">Home</a>Games</li>
-                <li><a href="./interna/exemplo.html">Exemplo</a></li>
-            </ul>
-        </nav>
+    <div id="container">
+
 
         <header class="cabecalho">
-            <h1>Mobile</h1>
+            <h1>MEU SITE</h1>
+            <nav class="menu">
+                <ul>
+                    <li class="menu"><a href="./games.html">Games</a></li>
+                    <li><a class="menu" href="./mobile.html">Mobile</a></li>
+                    <li><a href="./tech.html">Tech</a> </li>
+                </ul>
+            </nav>
         </header>
-        
+
+        <!-- section>h2{Mobile}*1p*1h2{Games}*1p*1 -->
         <section class="conteudo">
-            <h2>Conteúdo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur repellat, consequatur temporibus iste dolores quo sed commodi id consequuntur, est voluptatum enim labore ratione eos minima fugit earum! Beatae repellat doloremque commodi sequi a reiciendis nisi debitis optio aut iure, possimus perferendis inventore porro delectus officia, est ratione voluptates reprehenderit animi laudantium. Eaque, ipsum! Odit quasi aspernatur, neque nisi hic, ea nesciunt sequi dolore molestiae quaerat ratione fugit dicta. Qui est doloribus optio beatae, quia quasi eligendi similique, enim aspernatur ab, possimus error id itaque impedit cum iusto dolorem suscipit sapiente at dolorum ex nostrum ducimus ratione ipsum. Blanditiis, dolorum?</p>
+            <h2>Mobile</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in impedit officiis, sequi, alias
+                praesentium facere tenetur quisquam soluta maiores quo laudantium, atque odio. Consectetur illum qui
+                iusto laborum est obcaecati mollitia porro possimus repellendus natus tempore magnam, veniam, blanditiis
+                nihil vero minus expedita, maiores asperiores. Sequi dolore, impedit vero illum atque mollitia eum? Enim
+                autem voluptate alias harum ut maiores aliquid, asperiores rerum, repellendus, mollitia assumenda
+                facilis numquam architecto. Voluptates, earum repellat sed dicta fugiat dignissimos possimus ut iste
+                maiores facilis, minima voluptas magnam ipsam. Voluptatem aperiam repellat cum repudiandae. Eius aut
+                odio repellat earum provident qui ducimus dignissimos!</p>
+            <h2>Games</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nemo in impedit est fugit? Quaerat quia
+                eaque quisquam sapiente maxime aliquid ea error nemo minus deserunt, nostrum cupiditate accusantium
+                veniam sint. Illo, voluptatum. Fugit perspiciatis nemo necessitatibus dolorum placeat ducimus enim optio
+                laborum dolore ad modi aspernatur nihil alias quas voluptates aliquid temporibus nisi, itaque facere
+                voluptate dolor, minima soluta. Quaerat voluptas similique non officiis distinctio esse itaque mollitia
+                quasi? Ipsum amet, voluptatibus, sapiente ab libero laboriosam totam ex molestiae blanditiis possimus
+                sit similique doloribus fugit ipsam reprehenderit fuga illo, illum quo iure eos! Velit exercitationem
+                architecto hic consequuntur repellat?</p>
         </section>
 
         <footer>
-            <p>
-                copyright &copy - 2023
-            </p>
+            <p><small>copyright &copy - 2023</small></p>
         </footer>
+
     </div>
 </body>
+
 </html>
