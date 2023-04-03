@@ -1,49 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/*
+Reset CSS
+http://meyerweb.com/eric/tools/css/reset/   
+v2.0 | 20110126
+License: none (public domain)
+*/
 * {
     margin: 0;
-    padding:  0;
+    padding: 0;
     box-sizing: border-box;
+   
 }
 
-/* h1 */ 
-.cabecalho > h1{ 
-    position: absolute;
+/*
+    Código importado do FIGMA
+*/
+ 
+
+.cabecalho > h1{
+    font-family: 'Inter', sans-serif;
     float: left;
-    width: 200px;
-    height: 100px;
-    left: 0px;
-    top: 0px; 
-    background-color: rgb(199, 81, 134);
-    font-family: 'Lucida Sans', Arial, sans-serif;
+    width: 345px;
+    height: 200px;
+    background-color: #D9D9D9;
+    padding: 65px 20px;
+    font-size: 61px;
+    text-align: center;
+    
 }
 
-/* nav */  
-.cabecalho > nav { 
+.cabecalho>nav {
     float: right;
-    padding: 79px 23px;
-    width: 100px;
-    height: 100px; 
 }
 
-.menu > ul {  
-    list-style: none; 
-
-} /*Usado para decidir se é um bloco ou uma linha */ 
-.menu > ul li { 
-    display: inline; 
+.menu ul{
+    list-style: none;
 }
 
-.menu > ul li a { 
+.menu ul li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+.menu ul li a{
     text-decoration: none;
-    color: rgb(198, 54, 155);
-    font-family: 'Trebuchet MS', Arial, sans-serif; /*Sans serif significa é uma fonte redonda */ 
+    
+    font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 73px;
+        font-size: 40px;
+    
+    background-color: #D9D9D9;
+    text-align: center;
+    display: inline-block;
+    padding: 60px 50px;
+    height: 200px;
+    width: 266px;
+    border-radius: 0px;
+    
+    
 }
 
-/* Importante pra manter a parte em ordem */ 
-.conteudo {
-    clear: right;
-     
+
+.conteudo{
+    clear: left;
 }
-
-
-
-
