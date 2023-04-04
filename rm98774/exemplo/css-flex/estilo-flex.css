@@ -19,14 +19,15 @@
         justify-content: end;
         justify-content: flex-start;
     */
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-items: space-around;
+    justify-content: center;
     align-items: center;
 
 }
 .box-filhas{
-    height: 90px;
+    height: 50%;
+    margin: 0 1%;
 }
 
 
@@ -36,14 +37,16 @@
 
 .box2{
     background-color: aquamarine;
+    flex-grow: 1;
 }
 
 .box3{
     background-color: blue;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .box4{
+    flex-grow: 1;
     background-color: brown;
-    color: #fff;
 }
-
