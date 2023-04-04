@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-pai{
+    height: 500px;
+    display: flex;
+    /*
+        flex-direction: row-reverse; 
+        flex-direction: row;
+        flex-direction: column-reverse;
+        flex-direction: column;
+    */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.box-filhas{
+    height: 50%;
+    /* flex-grow: 1; */
+}
+
+.box1{
+    background-color: whitesmoke;
+}
+
+.box2{
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+.box3{
+    background-color: bisque;
+    flex-grow: 1;
+    margin: 0 1px;
+    text-align: center;
+    padding: 2% 0;
+
+}
+
+.box4{
+    background-color: greenyellow;
+    flex-grow: 1;
+}
