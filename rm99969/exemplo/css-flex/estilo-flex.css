@@ -5,29 +5,42 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body{
+    height: 500px;
+}
+
 .box-pai {
-    height: 100px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 }
 
-/*.box-filha{
-    height: 50px;
-}*/
+.box-filha{
+    height: 50%;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 1%;
+    padding: 8%;
+    
+}
 
 .box1 {
     background-color: rgb(243, 220, 163);
 }
 
 .box2{
-    background-color: rgb(224, 189, 114);
+    background-color: rgb(230, 199, 133);
 }
 
 .box3{
-    background-color: rgb(228, 141, 82);
+    background-color: rgb(228, 163, 120);
 }
 
 .box4 {
-    background-color: rgb(243, 106, 82);
+    background-color: rgb(236, 144, 128);
+    
 }
