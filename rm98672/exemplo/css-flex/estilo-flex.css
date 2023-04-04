@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box-pai{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.box-filhas{
+    height: 50%;
+    /* flex-grow: 1; */
+}
+
+.box1{
+    background-color: whitesmoke;
+}
+
+.box2{
+    background-color: papayawhip;
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: rgb(255, 215, 215);
+    flex-grow: 1;
+    margin: 0 1%;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.box4{
+    background-color: rosybrown;
+    flex-grow: 3;
+}
