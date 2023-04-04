@@ -2,5 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.box-pai {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*.box-filha{
+    height: 50px;
+}*/
+
+.box1 {
+    background-color: rgb(243, 220, 163);
+}
+
+.box2{
+    background-color: rgb(224, 189, 114);
+}
+
+.box3{
+    background-color: rgb(228, 141, 82);
+}
+
+.box4 {
+    background-color: rgb(243, 106, 82);
+}
