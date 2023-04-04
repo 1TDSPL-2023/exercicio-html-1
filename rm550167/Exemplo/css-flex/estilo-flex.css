@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box-pai{
+    height: 100%;
+    display: flex;
+    /*flex-direction: row-reverse;
+    flex-direction: column;
+    */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: baseline;
+}
+
+box-filhas{ 
+    height: 50%;
+    flex-grow: 2;
+
+}
+
+.box1{
+    background-color: blueviolet;
+}
+
+.box2{
+    background-color: aquamarine;
+    flex-grow: 2;
+}
+.box3{
+    background-color: blue;
+    flex-grow: 1;
+    margin:0;
+    padding:0;
+}
+
+.box4{
+    background-color: brown;
+    flex-grow: 3;
+}
