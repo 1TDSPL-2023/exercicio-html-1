@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.link {
+    text-decoration: none;
+}
+
+.cabecalho > h1 {
+    text-align: center;
+    float: left;
+    width: 345px;
+    height: 217px;
+    background: #141414;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 77px;
+    padding: 70px 21px
+    
+}
+
+.cabecalho > nav {
+    float:right;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 0px 10px;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #141414;
+    width: 223px;
+    height: 217px;
+    border-radius: 0px;
+    padding: 80px 21px;
+    font-size: 50px;
+}
+
+.conteudo{
+    clear: left;
+}
